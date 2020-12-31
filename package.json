@@ -1,0 +1,25 @@
+{
+  "name": "trashure-gatsby-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trashure Gatsby Motion",
+  "author": "athallarizky",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0"
+  }
+}
