@@ -3,23 +3,24 @@ import { Box } from '@material-ui/core'
 import BaseLayout from 'components/layout/BaseLayout'
 import AppContainer from 'components/layout/AppContainer'
 import TopNavigation from 'components/layout/TopNavigation'
+import NavBackButton from 'components/shared/NavBackButton'
 import NavCaption from 'components/shared/NavCaption'
-import BottomNavigation from 'components/layout/BottomNavigation'
-import ExchangeAccordion from 'components/shared/ExchangeAccordion'
-const Exchange = () => {
+import ExchangeConfirm from 'components/shared/ExchangeConfirm'
+
+const ConfirmExchance = () => {
     return (
         <BaseLayout>
             <AppContainer>
                 <TopNavigation whiteBg>
-                    <NavCaption caption="Penukaran"/>
+                    <NavBackButton/>
+                    <NavCaption caption="Konfirmasi" withBackButton/>
                 </TopNavigation>
-                <Box minHeight="100vh" mt={10}>
-                    <ExchangeAccordion/>
+                <Box minHeight="80vh" mt={10}>
+                    <ExchangeConfirm/>
                 </Box>
             </AppContainer>
-            <BottomNavigation/>
         </BaseLayout>
     )
 }
 
-export default Exchange
+export default ConfirmExchance

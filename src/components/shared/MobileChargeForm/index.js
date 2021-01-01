@@ -1,4 +1,5 @@
 import React from "react";
+import { navigate } from 'gatsby'
 import { Box, Typography, TextField, MenuItem, Button } from "@material-ui/core";
 import useStyles from "./style";
 
@@ -11,8 +12,7 @@ const MobileChargeForm = () => {
   const handleChangePhoneNumb = (event) => setPhoneNumb(event.target.value)
   const handleChangePrice = (event) => setValue(event.target.value);
 
-  console.log('value', value)
-  console.log('phoneNumb', phoneNumb)
+  const handleClick = () => navigate('/exchange-confirm')
 
   const priceLists = [
     { nominal: "Rp. 1000", realPrice: "Rp. 1500" },
@@ -62,7 +62,9 @@ const MobileChargeForm = () => {
             disableElevation 
             fullWidth 
             style={{minHeight:56, color:'#FFF'}} 
-            disabled={phoneNumb==='' || value==='' ? true : false}>
+            disabled={phoneNumb==='' || value==='' ? true : false}
+            onClick={handleClick}
+            >
             <Typography variant="body1">
                 Tukar
             </Typography>       

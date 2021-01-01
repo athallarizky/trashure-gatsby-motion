@@ -11,9 +11,10 @@ const useStyles = makeStyles( theme => ({
         border:'transparent',
         marginBottom:15,
         padding:"15px 0",
+        position:'static',
 
         "& .MuiAccordion-root:before": {
-            backgroundColor: '#FFF'
+            backgroundColor: '#FFF !important'
           },
 
         "& .MuiAccordionSummary-root":{
