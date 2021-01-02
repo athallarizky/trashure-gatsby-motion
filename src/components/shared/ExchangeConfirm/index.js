@@ -1,10 +1,12 @@
 import React from "react";
+import { navigate } from 'gatsby'
 import { Box, Grid, Paper, Typography, Button } from "@material-ui/core";
 import useStyles from "./style";
 import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 
 const ExchangeConfirm = () => {
   const classes = useStyles();
+  const handleClick = () => navigate('/exchange-success')
   return (
     <Box className={classes.root}>
       <Paper className={classes.paperWrapper} elevation={0}>
@@ -71,6 +73,7 @@ const ExchangeConfirm = () => {
                 disableElevation 
                 fullWidth 
                 style={{minHeight:56, color:'#FFF'}}
+                onClick={handleClick}
                 >
                 <Typography variant="body1">
                     Tukar

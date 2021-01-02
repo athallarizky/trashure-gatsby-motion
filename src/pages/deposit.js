@@ -9,13 +9,13 @@ import DepositCard from 'components/shared/DepositCard'
 import DepositImage from 'assets/images/deposit-img.svg'
 
 const depositDatas = [
-    {title:'Trashbag ID', id:'1304A32DAE', date:'24/04/2019', status:'Proses', images:DepositImage, href:'/deposit-detail'},
-    {title:'Trashbag ID', id:'1304A32DAE', date:'19/04/2019', status:'Proses', images:DepositImage, href:'/deposit-detail'},
-    {title:'Trashbag ID', id:'1304A32DAE', date:'14/04/2019', status:'Selesai', images:DepositImage, href:'/deposit-detail'},
-    {title:'Trashbag ID', id:'1304A32DAE', date:'10/04/2019', status:'Selesai', images:DepositImage, href:'/deposit-detail'},
-    {title:'Trashbag ID', id:'1304A32DAE', date:'5/04/2019', status:'Selesai', images:DepositImage, href:'/deposit-detail'},
-    {title:'Trashbag ID', id:'1304A32DAE', date:'28/03/2019', status:'Selesai', images:DepositImage, href:'/deposit-detail'},
-    {title:'Trashbag ID', id:'1304A32DAE', date:'20/04/2019', status:'Selesai', images:DepositImage, href:'/deposit-detail'},
+    {title:'Trashbag ID', id:'1304A32DAE', date:'24/04/2019', status:'Proses', images:DepositImage, href:'#'},
+    {title:'Trashbag ID', id:'1304A32DAE', date:'19/04/2019', status:'Proses', images:DepositImage, href:'#'},
+    {title:'Trashbag ID', id:'1304A32DAE', date:'14/04/2019', status:'Selesai', images:DepositImage, href:'#'},
+    {title:'Trashbag ID', id:'1304A32DAE', date:'10/04/2019', status:'Selesai', images:DepositImage, href:'#'},
+    {title:'Trashbag ID', id:'1304A32DAE', date:'5/04/2019', status:'Selesai', images:DepositImage, href:'#'},
+    {title:'Trashbag ID', id:'1304A32DAE', date:'28/03/2019', status:'Selesai', images:DepositImage, href:'#'},
+    {title:'Trashbag ID', id:'1304A32DAE', date:'20/04/2019', status:'Selesai', images:DepositImage, href:'#'},
 ]
 const Deposit = () => {
     return (
