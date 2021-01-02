@@ -22,7 +22,7 @@ const BottomNav = () => {
         { label: "Beranda", value: "/home", icon:<HomeIcon/>  },
         { label: "Penukaran", value: "/exchange", icon:<AutorenewIcon/>  },
         { label: "Scan", value: "/scan", icon:<SearchIcon/>  },
-        { label: "Harga", value: "/price", icon:<LocalOfferIcon/>  },
+        { label: "Harga", value: "/prices", icon:<LocalOfferIcon/>  },
         { label: "Akun", value: "/account", icon:<PersonIcon/>  },
     ]
     return (
