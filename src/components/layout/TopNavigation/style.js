@@ -18,7 +18,11 @@ const useStyles = makeStyles( theme => ({
     whiteBg:{
         background:'#FFF',
         boxShadow:'0px 4px 12px rgba(81, 81, 81, 0.05)'
-    }
+    },
+    withIcon:{
+        display:'flex',
+        justifyContent:'space-between',
+    },
 
 }))
 
